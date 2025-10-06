@@ -117,7 +117,6 @@ Here's what's working now in your `.env`:
 AZURE_OPENAI_ENDPOINT=https://micha-mgfndxjq-northcentralus.openai.azure.com/
 
 # Your API key (kept secure)
-AZURE_OPENAI_API_KEY=XXXX
 
 # API version
 AZURE_OPENAI_API_VERSION=2024-12-01-preview
