@@ -30,16 +30,26 @@ Then open your browser and go to http://localhost:5000.
 
 🧠 How GitHub Copilot Helped
 This app was built using GitHub Copilot with the following prompt-driven development steps:
-- Create a Flask app with a chat interface
-- Store user messages and bot responses
-- Extract trip details from chat input
-- Suggest kid-friendly activities based on destination
-- Add calendar picker for travel dates
-- Save trip plans to JSON or SQLite
-- Recommend family-friendly hotels
-- Summarize trip details
-- Export trip plan to PDF
-- Send trip summary via email
+- Set up a basic Flask app with a chat interface.
+_"Create a Flask web app with a simple HTML form to send and receive chat messages."_
+- Store user input in a session or temporary memory.
+_"Add session support to store user messages and bot responses."_
+- Create a function to parse trip details from user input.
+_"Write a function that extracts destination, travel dates, and number of travelers from a message."_
+- Integrate OpenAI or local NLP model for chatbot responses.
+_"Connect the chat input to an OpenAI GPT model to generate travel planning responses."_
+- Add logic to suggest kid-friendly activities in the destination.
+_"Based on the destination, suggest activities suitable for children."_
+- Include a calendar picker for selecting travel dates.
+_"Add a date picker to the chat interface for selecting start and end dates."_
+- Store trip plans in a local JSON file or SQLite database.
+_"Save trip details and chat history to a local database for future reference."_
+- Add a feature to recommend hotels or accommodations.
+_"Create a function that recommends family-friendly hotels in the selected destination."_
+- Implement a summary view of the planned trip.
+_"Generate a summary of the trip including dates, destination, activities, and accommodations."_
+- Enable export of trip plan to PDF or email.
+_"Add functionality to export the trip summary to a PDF or send it via email."_
 
 📁 Project Structure
 ```
