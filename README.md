@@ -17,21 +17,35 @@ A simple Python-based chat application that helps you plan a trip to a specific 
 
 - Python 3.8+
 - Flask
-- OpenAI API key (optional for GPT integration)
+- Azure OpenAI / Azure AI Foundry account and API key
+- See [AZURE_SETUP.md](AZURE_SETUP.md) for detailed setup instructions
 
 ```bash
 git clone https://github.com/your-username/family-trip-planner.git
 cd family-trip-planner
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Configure Azure AI (IMPORTANT!)
+cp .env.example .env
+# Edit .env and add your Azure OpenAI credentials
+# See AZURE_SETUP.md for detailed instructions
+
+# Run the app
 python app.py
 ```
 
 Then open your browser and go to http://localhost:5000.
 
+**⚠️ Important**: Configure your Azure AI credentials in `.env` before running. See [AZURE_SETUP.md](AZURE_SETUP.md) for complete setup instructions.
+
 🧠 How GitHub Copilot Helped
 This app was built using GitHub Copilot with the following prompt-driven development steps:
 - Set up a basic Flask app with a chat interface.
 _"Create a Flask web app with a simple HTML form to send and receive chat messages."_
+- Make sure you will add the LLM integration using the model from Azure AI Foundry
+_"Make sure you will add the LLM integration using the model from Azure AI Foundry also adding respective env file"_
 - Store user input in a session or temporary memory.
 _"Add session support to store user messages and bot responses."_
 - Create a function to parse trip details from user input.
