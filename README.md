@@ -52,6 +52,8 @@ _"Add session support to store user messages and bot responses."_
 _"Write a function that extracts destination, travel dates, and number of travelers from a message."_
 - Integrate OpenAI or local NLP model for chatbot responses.
 _"Connect the chat input to an OpenAI GPT model to generate travel planning responses."_
+- Add JSON files with potential flights, hotels and fun activites. Later on I will put them in the database. I need them for testing purposes.
+_"Add JSON files with potential flights, hotels and fun activites. Later on I will put them in the database."_
 - Add logic to suggest kid-friendly activities in the destination.
 _"Based on the destination, suggest activities suitable for children."_
 - Include a calendar picker for selecting travel dates.
@@ -64,6 +66,14 @@ _"Create a function that recommends family-friendly hotels in the selected desti
 _"Generate a summary of the trip including dates, destination, activities, and accommodations."_
 - Enable export of trip plan to PDF or email.
 _"Add functionality to export the trip summary to a PDF or send it via email."_
+- Explain to me the whole code showing key things
+_"Explain to me the whole code showing key things"_
+- Draw a diagram using markdown to present the architecture of the solution
+_"Draw a diagram using markdown to present the architecture of the solution"_
+- Add a Dockerfile to repo
+_"Add a Dockerfile to repo"_
+- Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container
+_"Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container"
 
 📁 Project Structure
 ```
