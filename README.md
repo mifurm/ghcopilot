@@ -94,6 +94,10 @@ family-trip-planner/
 Created by [Michal Furmankiewicz (Furman)] — Sr Solution Engineer
 Feel free to reach out for consulting or GitHub Copilot demos!
 
+# Codespaces
+
 [![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-GitHub%20Codespaces-blue?logo=github)](https://github.com/codespaces/new?repository=https://github.com/mifurm/ghcopilot)
+
+[![See all Codespaces](https://github.com/codespaces)
 
 
