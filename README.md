@@ -73,7 +73,7 @@ _"Draw a diagram using markdown to present the architecture of the solution"_
 - Add a Dockerfile to repo
 _"Add a Dockerfile to repo"_
 - Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container
-_"Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container"
+_"Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container"_
 
 📁 Project Structure
 ```
