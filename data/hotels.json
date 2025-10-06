@@ -1,0 +1,588 @@
+{
+  "hotels": [
+    {
+      "id": "H001",
+      "name": "Le Grand Paris Hotel",
+      "city": "Paris",
+      "country": "France",
+      "address": "15 Rue de la Paix, 75002 Paris",
+      "star_rating": 4,
+      "price_per_night": {
+        "standard_room": 250,
+        "family_suite": 380,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Pool",
+        "Kids club",
+        "Family rooms",
+        "Restaurant",
+        "Spa",
+        "Parking"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Playground",
+        "Cribs available",
+        "High chairs",
+        "Kids activities"
+      ],
+      "distance_to_attractions": {
+        "Eiffel Tower": "2 km",
+        "Louvre Museum": "1.5 km",
+        "Notre-Dame": "3 km"
+      },
+      "room_types": [
+        {
+          "type": "Standard Double Room",
+          "max_guests": 2,
+          "beds": "1 Queen",
+          "size_sqm": 25
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 Queen + 2 Singles",
+          "size_sqm": 45
+        },
+        {
+          "type": "Deluxe Family Room",
+          "max_guests": 5,
+          "beds": "1 Queen + 3 Singles",
+          "size_sqm": 55
+        }
+      ],
+      "reviews": {
+        "rating": 4.5,
+        "total_reviews": 2340,
+        "highlights": ["Great location", "Friendly staff", "Clean rooms", "Good breakfast"]
+      },
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+    },
+    {
+      "id": "H002",
+      "name": "London Family Inn",
+      "city": "London",
+      "country": "UK",
+      "address": "45 Victoria Street, Westminster, London SW1H 0EU",
+      "star_rating": 3,
+      "price_per_night": {
+        "standard_room": 180,
+        "family_suite": 280,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Family rooms",
+        "Restaurant",
+        "24/7 Reception",
+        "Laundry service"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Cribs available",
+        "High chairs",
+        "Game room"
+      ],
+      "distance_to_attractions": {
+        "Big Ben": "0.5 km",
+        "London Eye": "1 km",
+        "British Museum": "2.5 km"
+      },
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "max_guests": 2,
+          "beds": "1 Double",
+          "size_sqm": 20
+        },
+        {
+          "type": "Family Room",
+          "max_guests": 4,
+          "beds": "1 Double + 2 Singles",
+          "size_sqm": 35
+        }
+      ],
+      "reviews": {
+        "rating": 4.2,
+        "total_reviews": 1850,
+        "highlights": ["Perfect location", "Value for money", "Helpful staff"]
+      },
+      "cancellation_policy": "Free cancellation up to 24 hours before check-in"
+    },
+    {
+      "id": "H003",
+      "name": "Tokyo Family Resort",
+      "city": "Tokyo",
+      "country": "Japan",
+      "address": "1-1-1 Shibuya, Shibuya-ku, Tokyo 150-0002",
+      "star_rating": 4,
+      "price_per_night": {
+        "standard_room": 220,
+        "family_suite": 350,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Pool",
+        "Kids club",
+        "Family rooms",
+        "Multiple restaurants",
+        "Spa",
+        "Gym",
+        "Parking"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids buffet",
+        "Playground",
+        "Cribs available",
+        "High chairs",
+        "Kids activities",
+        "Arcade games"
+      ],
+      "distance_to_attractions": {
+        "Tokyo Tower": "3 km",
+        "Sensoji Temple": "8 km",
+        "Tokyo Disneyland": "15 km"
+      },
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "max_guests": 2,
+          "beds": "2 Singles",
+          "size_sqm": 22
+        },
+        {
+          "type": "Family Room",
+          "max_guests": 4,
+          "beds": "2 Doubles",
+          "size_sqm": 40
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 6,
+          "beds": "2 Doubles + 2 Singles",
+          "size_sqm": 60
+        }
+      ],
+      "reviews": {
+        "rating": 4.6,
+        "total_reviews": 3120,
+        "highlights": ["Excellent service", "Great for families", "Clean and modern", "Great location"]
+      },
+      "cancellation_policy": "Free cancellation up to 72 hours before check-in"
+    },
+    {
+      "id": "H004",
+      "name": "Barcelona Beach Hotel",
+      "city": "Barcelona",
+      "country": "Spain",
+      "address": "Passeig Marítim de la Barceloneta, 37, 08003 Barcelona",
+      "star_rating": 4,
+      "price_per_night": {
+        "standard_room": 200,
+        "family_suite": 320,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Beach access",
+        "Pool",
+        "Kids club",
+        "Family rooms",
+        "Restaurant",
+        "Bar",
+        "Spa"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Beach toys",
+        "Playground",
+        "Cribs available",
+        "High chairs",
+        "Kids pool"
+      ],
+      "distance_to_attractions": {
+        "La Sagrada Familia": "4 km",
+        "Park Güell": "5 km",
+        "Gothic Quarter": "2 km"
+      },
+      "room_types": [
+        {
+          "type": "Sea View Room",
+          "max_guests": 2,
+          "beds": "1 Queen",
+          "size_sqm": 28
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 Queen + 2 Singles",
+          "size_sqm": 48
+        }
+      ],
+      "reviews": {
+        "rating": 4.4,
+        "total_reviews": 2780,
+        "highlights": ["Beach location", "Great for kids", "Delicious food", "Friendly staff"]
+      },
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+    },
+    {
+      "id": "H005",
+      "name": "New York Family Hotel",
+      "city": "New York",
+      "country": "USA",
+      "address": "123 West 44th Street, New York, NY 10036",
+      "star_rating": 4,
+      "price_per_night": {
+        "standard_room": 280,
+        "family_suite": 450,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast available",
+        "Gym",
+        "Family rooms",
+        "Restaurant",
+        "24/7 Concierge",
+        "Business center"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Cribs available",
+        "High chairs",
+        "Welcome gift for kids"
+      ],
+      "distance_to_attractions": {
+        "Times Square": "0.3 km",
+        "Central Park": "1.5 km",
+        "Empire State Building": "0.8 km"
+      },
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "max_guests": 2,
+          "beds": "1 King",
+          "size_sqm": 25
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 King + 1 Sofa bed",
+          "size_sqm": 42
+        }
+      ],
+      "reviews": {
+        "rating": 4.3,
+        "total_reviews": 4250,
+        "highlights": ["Perfect location", "Clean rooms", "Great staff", "Close to everything"]
+      },
+      "cancellation_policy": "Free cancellation up to 24 hours before check-in"
+    },
+    {
+      "id": "H006",
+      "name": "Rome Family Suites",
+      "city": "Rome",
+      "country": "Italy",
+      "address": "Via Nazionale 22, 00184 Rome",
+      "star_rating": 3,
+      "price_per_night": {
+        "standard_room": 160,
+        "family_suite": 260,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Family rooms",
+        "Restaurant",
+        "Bar",
+        "Rooftop terrace"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Cribs available",
+        "High chairs",
+        "Babysitting on request"
+      ],
+      "distance_to_attractions": {
+        "Colosseum": "1.5 km",
+        "Trevi Fountain": "0.8 km",
+        "Vatican": "3 km"
+      },
+      "room_types": [
+        {
+          "type": "Standard Room",
+          "max_guests": 2,
+          "beds": "1 Double",
+          "size_sqm": 22
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 Double + 2 Singles",
+          "size_sqm": 38
+        }
+      ],
+      "reviews": {
+        "rating": 4.1,
+        "total_reviews": 1920,
+        "highlights": ["Central location", "Good value", "Friendly atmosphere", "Historic area"]
+      },
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+    },
+    {
+      "id": "H007",
+      "name": "Amsterdam Canal Hotel",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "address": "Prinsengracht 400, 1016 JB Amsterdam",
+      "star_rating": 4,
+      "price_per_night": {
+        "standard_room": 230,
+        "family_suite": 360,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Canal view",
+        "Family rooms",
+        "Restaurant",
+        "Bike rental",
+        "Bar"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Cribs available",
+        "High chairs",
+        "Family bikes available"
+      ],
+      "distance_to_attractions": {
+        "Anne Frank House": "0.5 km",
+        "Van Gogh Museum": "1.2 km",
+        "Dam Square": "1 km"
+      },
+      "room_types": [
+        {
+          "type": "Canal View Room",
+          "max_guests": 2,
+          "beds": "1 Queen",
+          "size_sqm": 24
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 Queen + 2 Singles",
+          "size_sqm": 42
+        }
+      ],
+      "reviews": {
+        "rating": 4.5,
+        "total_reviews": 2150,
+        "highlights": ["Beautiful canal views", "Great location", "Bike-friendly", "Charming"]
+      },
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+    },
+    {
+      "id": "H008",
+      "name": "Dubai Family Resort",
+      "city": "Dubai",
+      "country": "UAE",
+      "address": "The Palm Jumeirah, Dubai",
+      "star_rating": 5,
+      "price_per_night": {
+        "standard_room": 350,
+        "family_suite": 550,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Private beach",
+        "Multiple pools",
+        "Kids club",
+        "Family rooms",
+        "Multiple restaurants",
+        "Spa",
+        "Water park access",
+        "Gym"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids buffet",
+        "Aqua park",
+        "Playground",
+        "Cribs available",
+        "High chairs",
+        "Kids activities",
+        "Teen club",
+        "Kids pool"
+      ],
+      "distance_to_attractions": {
+        "Burj Khalifa": "15 km",
+        "Dubai Mall": "14 km",
+        "Aquaventure Waterpark": "1 km"
+      },
+      "room_types": [
+        {
+          "type": "Ocean View Room",
+          "max_guests": 2,
+          "beds": "1 King",
+          "size_sqm": 45
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 King + 2 Singles",
+          "size_sqm": 70
+        },
+        {
+          "type": "Grand Family Villa",
+          "max_guests": 6,
+          "beds": "2 Kings + 2 Singles",
+          "size_sqm": 120
+        }
+      ],
+      "reviews": {
+        "rating": 4.8,
+        "total_reviews": 5630,
+        "highlights": ["Luxury resort", "Amazing for families", "Excellent facilities", "Great beach"]
+      },
+      "cancellation_policy": "Free cancellation up to 72 hours before check-in"
+    },
+    {
+      "id": "H009",
+      "name": "Singapore Family Hotel",
+      "city": "Singapore",
+      "country": "Singapore",
+      "address": "10 Bayfront Avenue, Singapore 018956",
+      "star_rating": 5,
+      "price_per_night": {
+        "standard_room": 320,
+        "family_suite": 500,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Rooftop pool",
+        "Kids club",
+        "Family rooms",
+        "Multiple restaurants",
+        "Spa",
+        "Shopping arcade",
+        "Gym"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Playground",
+        "Cribs available",
+        "High chairs",
+        "Kids activities",
+        "Kids pool"
+      ],
+      "distance_to_attractions": {
+        "Gardens by the Bay": "0.2 km",
+        "Universal Studios": "2 km",
+        "Singapore Zoo": "18 km"
+      },
+      "room_types": [
+        {
+          "type": "City View Room",
+          "max_guests": 2,
+          "beds": "1 King",
+          "size_sqm": 35
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 King + 2 Singles",
+          "size_sqm": 60
+        }
+      ],
+      "reviews": {
+        "rating": 4.7,
+        "total_reviews": 4890,
+        "highlights": ["Modern luxury", "Great location", "Family-friendly", "Excellent service"]
+      },
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+    },
+    {
+      "id": "H010",
+      "name": "Sydney Harbour Hotel",
+      "city": "Sydney",
+      "country": "Australia",
+      "address": "176 Cumberland Street, The Rocks, Sydney NSW 2000",
+      "star_rating": 4,
+      "price_per_night": {
+        "standard_room": 240,
+        "family_suite": 390,
+        "currency": "USD"
+      },
+      "amenities": [
+        "Free Wi-Fi",
+        "Breakfast included",
+        "Harbour view",
+        "Pool",
+        "Family rooms",
+        "Restaurant",
+        "Bar",
+        "Gym"
+      ],
+      "family_friendly": true,
+      "kids_amenities": [
+        "Kids menu",
+        "Cribs available",
+        "High chairs",
+        "Kids welcome pack"
+      ],
+      "distance_to_attractions": {
+        "Sydney Opera House": "0.8 km",
+        "Harbour Bridge": "0.3 km",
+        "Taronga Zoo": "4 km"
+      },
+      "room_types": [
+        {
+          "type": "Harbour View Room",
+          "max_guests": 2,
+          "beds": "1 Queen",
+          "size_sqm": 30
+        },
+        {
+          "type": "Family Suite",
+          "max_guests": 4,
+          "beds": "1 Queen + 2 Singles",
+          "size_sqm": 50
+        }
+      ],
+      "reviews": {
+        "rating": 4.4,
+        "total_reviews": 3340,
+        "highlights": ["Amazing location", "Beautiful views", "Friendly staff", "Great breakfast"]
+      },
+      "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+    }
+  ],
+  "metadata": {
+    "total_hotels": 10,
+    "last_updated": "2025-10-06",
+    "currency": "USD",
+    "notes": "Sample data for testing purposes. Prices and availability subject to change. All hotels are family-friendly with appropriate amenities."
+  }
+}

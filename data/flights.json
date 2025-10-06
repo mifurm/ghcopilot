@@ -1,0 +1,320 @@
+{
+  "flights": [
+    {
+      "id": "FL001",
+      "airline": "Air France",
+      "flight_number": "AF123",
+      "departure": {
+        "airport": "JFK",
+        "city": "New York",
+        "country": "USA",
+        "time": "10:00"
+      },
+      "arrival": {
+        "airport": "CDG",
+        "city": "Paris",
+        "country": "France",
+        "time": "23:30"
+      },
+      "duration": "7h 30m",
+      "price": {
+        "adult": 650,
+        "child": 520,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 45,
+      "amenities": ["Wi-Fi", "Meals included", "Entertainment", "USB ports"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (50 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL002",
+      "airline": "British Airways",
+      "flight_number": "BA456",
+      "departure": {
+        "airport": "JFK",
+        "city": "New York",
+        "country": "USA",
+        "time": "18:00"
+      },
+      "arrival": {
+        "airport": "LHR",
+        "city": "London",
+        "country": "UK",
+        "time": "06:30"
+      },
+      "duration": "6h 30m",
+      "price": {
+        "adult": 580,
+        "child": 465,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 32,
+      "amenities": ["Wi-Fi", "Meals included", "Entertainment", "Power outlets"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (50 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL003",
+      "airline": "Japan Airlines",
+      "flight_number": "JL789",
+      "departure": {
+        "airport": "LAX",
+        "city": "Los Angeles",
+        "country": "USA",
+        "time": "11:00"
+      },
+      "arrival": {
+        "airport": "NRT",
+        "city": "Tokyo",
+        "country": "Japan",
+        "time": "15:30+1"
+      },
+      "duration": "11h 30m",
+      "price": {
+        "adult": 950,
+        "child": 760,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 28,
+      "amenities": ["Wi-Fi", "Premium meals", "Entertainment", "Noise-canceling headphones"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (50 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL004",
+      "airline": "Lufthansa",
+      "flight_number": "LH234",
+      "departure": {
+        "airport": "ORD",
+        "city": "Chicago",
+        "country": "USA",
+        "time": "16:45"
+      },
+      "arrival": {
+        "airport": "MUC",
+        "city": "Munich",
+        "country": "Germany",
+        "time": "09:15+1"
+      },
+      "duration": "8h 30m",
+      "price": {
+        "adult": 720,
+        "child": 576,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 18,
+      "amenities": ["Wi-Fi", "Meals included", "Entertainment", "USB ports"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (50 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL005",
+      "airline": "Iberia",
+      "flight_number": "IB567",
+      "departure": {
+        "airport": "MIA",
+        "city": "Miami",
+        "country": "USA",
+        "time": "20:00"
+      },
+      "arrival": {
+        "airport": "MAD",
+        "city": "Madrid",
+        "country": "Spain",
+        "time": "10:30+1"
+      },
+      "duration": "8h 30m",
+      "price": {
+        "adult": 680,
+        "child": 544,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 22,
+      "amenities": ["Wi-Fi", "Meals included", "Entertainment"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (50 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL006",
+      "airline": "Emirates",
+      "flight_number": "EK890",
+      "departure": {
+        "airport": "JFK",
+        "city": "New York",
+        "country": "USA",
+        "time": "22:30"
+      },
+      "arrival": {
+        "airport": "DXB",
+        "city": "Dubai",
+        "country": "UAE",
+        "time": "19:00+1"
+      },
+      "duration": "12h 30m",
+      "price": {
+        "adult": 1100,
+        "child": 880,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 35,
+      "amenities": ["Wi-Fi", "Premium meals", "Entertainment", "Amenity kit", "Extra legroom"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (70 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL007",
+      "airline": "Singapore Airlines",
+      "flight_number": "SQ345",
+      "departure": {
+        "airport": "SFO",
+        "city": "San Francisco",
+        "country": "USA",
+        "time": "23:45"
+      },
+      "arrival": {
+        "airport": "SIN",
+        "city": "Singapore",
+        "country": "Singapore",
+        "time": "07:15+2"
+      },
+      "duration": "16h 30m",
+      "price": {
+        "adult": 1250,
+        "child": 1000,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 12,
+      "amenities": ["Wi-Fi", "Gourmet meals", "Entertainment", "Amenity kit", "Priority boarding"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (66 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL008",
+      "airline": "Air Canada",
+      "flight_number": "AC678",
+      "departure": {
+        "airport": "LAX",
+        "city": "Los Angeles",
+        "country": "USA",
+        "time": "08:30"
+      },
+      "arrival": {
+        "airport": "YVR",
+        "city": "Vancouver",
+        "country": "Canada",
+        "time": "11:15"
+      },
+      "duration": "2h 45m",
+      "price": {
+        "adult": 250,
+        "child": 200,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 56,
+      "amenities": ["Wi-Fi", "Snacks", "Entertainment"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "1 bag (50 lbs)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL009",
+      "airline": "Qantas",
+      "flight_number": "QF901",
+      "departure": {
+        "airport": "LAX",
+        "city": "Los Angeles",
+        "country": "USA",
+        "time": "21:00"
+      },
+      "arrival": {
+        "airport": "SYD",
+        "city": "Sydney",
+        "country": "Australia",
+        "time": "06:30+2"
+      },
+      "duration": "15h 30m",
+      "price": {
+        "adult": 1400,
+        "child": 1120,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 8,
+      "amenities": ["Wi-Fi", "Premium meals", "Entertainment", "Amenity kit", "Extra comfort"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (70 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    },
+    {
+      "id": "FL010",
+      "airline": "KLM",
+      "flight_number": "KL456",
+      "departure": {
+        "airport": "BOS",
+        "city": "Boston",
+        "country": "USA",
+        "time": "19:30"
+      },
+      "arrival": {
+        "airport": "AMS",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "time": "08:45+1"
+      },
+      "duration": "7h 15m",
+      "price": {
+        "adult": 690,
+        "child": 552,
+        "currency": "USD"
+      },
+      "class": "Economy",
+      "available_seats": 24,
+      "amenities": ["Wi-Fi", "Meals included", "Entertainment", "USB charging"],
+      "family_friendly": true,
+      "baggage": {
+        "checked": "2 bags (50 lbs each)",
+        "carry_on": "1 bag + 1 personal item"
+      }
+    }
+  ],
+  "metadata": {
+    "total_flights": 10,
+    "last_updated": "2025-10-06",
+    "currency": "USD",
+    "notes": "Sample data for testing purposes. Prices and availability subject to change."
+  }
+}

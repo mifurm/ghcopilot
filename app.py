@@ -6,6 +6,9 @@ import os
 # Import Azure AI service
 from azure_ai import get_azure_ai_response, get_ai_status
 
+# Import trip extraction utilities
+from trip_extractor import extract_trip_details, format_trip_summary
+
 # Load environment variables
 load_dotenv()
 
@@ -69,9 +72,37 @@ def ai_status():
     status = get_ai_status()
     return jsonify(status)
 
+@app.route('/api/extract-details', methods=['POST'])
+def extract_details():
+    """Extract trip details from a message"""
+    data = request.get_json()
+    message = data.get('message', '')
+    
+    if not message:
+        return jsonify({'error': 'No message provided'}), 400
+    
+    # Extract trip details
+    details = extract_trip_details(message)
+    summary = format_trip_summary(details)
+    
+    return jsonify({
+        'details': details,
+        'summary': summary
+    })
+
 def generate_response(message):
     """Generate a bot response based on user message using Azure AI"""
     try:
+        # Extract trip details from the message
+        trip_details = extract_trip_details(message)
+        has_trip_info = any([
+            trip_details.get('destination'),
+            trip_details.get('dates', {}).get('start_date'),
+            trip_details.get('travelers', {}).get('total', 0) > 0,
+            trip_details.get('duration'),
+            len(trip_details.get('children', [])) > 0
+        ])
+        
         # Convert chat history to format expected by Azure AI
         conversation_history = []
         for msg in chat_history:
@@ -82,6 +113,12 @@ def generate_response(message):
         
         # Get response from Azure AI service
         response = get_azure_ai_response(message, conversation_history)
+        
+        # If trip details were extracted, append them to the response
+        if has_trip_info:
+            trip_summary = format_trip_summary(trip_details)
+            response += f"\n\n{trip_summary}"
+        
         return response
     
     except Exception as e:
