@@ -42,6 +42,7 @@ This app was built using GitHub Copilot with the following prompt-driven develop
 - Send trip summary via email
 
 📁 Project Structure
+```
 family-trip-planner/
 │
 ├── templates/
@@ -53,6 +54,7 @@ family-trip-planner/
 ├── utils.py
 ├── trip_data.json
 └── README.md
+```
 
 📬 Contact
 Created by [Michal Furmankiewicz (Furman)] — Sr Solution Engineer
