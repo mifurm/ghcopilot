@@ -1,5 +1,3 @@
-
-# Create the README.md content
 🧳 Family Trip Planner Chat App
 
 A simple Python-based chat application that helps you plan a trip to a specific country, on specific dates, with your wife and children. Built with the help of **GitHub Copilot**.
@@ -29,6 +27,7 @@ python app.py
 ```
 
 Then open your browser and go to http://localhost:5000.
+
 🧠 How GitHub Copilot Helped
 This app was built using GitHub Copilot with the following prompt-driven development steps:
 - Create a Flask app with a chat interface
