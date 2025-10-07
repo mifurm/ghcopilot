@@ -75,8 +75,7 @@ _"Add a Dockerfile to repo"_
 - Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container
 _"Create a Bicep file to create a simple infrastructure in Azure to host the app and deploy it using a container"_
 - Can you show me where the system prompt is defined? Can you take it out of the file and put it in a dedicated JSON file so I can change it easily.
-_"- Can you show me where the system prompt is defined? Can you take it out of the file and put it in a dedicated JSON file so I can change it easily.
-"_
+_"Can you show me where the system prompt is defined? Can you take it out of the file and put it in a dedicated JSON file so I can change it easily."_
 - Can you add a layer, so we can detect when the prompt can disobey RAI practices? Can you visualize this?
 _"Can you add a layer, so we can detect when the prompt can disobey RAI practices?"_
 - Can you explain me how the solution works?
