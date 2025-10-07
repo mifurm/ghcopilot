@@ -80,6 +80,8 @@ _"Can you show me where the system prompt is defined? Can you take it out of the
 _"Can you add a layer, so we can detect when the prompt can disobey RAI practices?"_
 - Can you explain me how the solution works?
 _"Can you explain me how the solution works?"_
+- Please add a test, it can be a dedicated website, where I can check how the layer of the RAI practices works.
+_"Please add a test, it can be a dedicated website, where I can check how the layer of the RAI practices works"_
 
 
 📁 Project Structure
